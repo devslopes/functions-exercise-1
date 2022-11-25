@@ -15,9 +15,6 @@ Let's say you are trying to program a robot chef. If you want to bake a cake you
 Some codified( in javascript ) version of this might look like:
 
 ```js
-// get our oven
-const oven = new oven();
-
 // set the temperature of our oven to 400
 oven.set(400);
 
@@ -40,9 +37,6 @@ A procedure is just steps that we need to take to accomplish some task. In the c
 Mentally, even though the code we wrote above could be considered a procedure, if we wanted to make two cakes without some new concept, then we would have to just write more code and make new variables. It might look something like this
 
 ```js
-// get our oven
-const oven = new Oven();
-
 // set the temperature of our oven to 400
 oven.set(400);
 
