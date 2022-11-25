@@ -54,7 +54,7 @@ function getCake(isChocolate) {
 
 Pro tip: we define our functions with **parameters**, but when we **invoke** the function we pass in values as **arguments**
 
-Now we invoke the function with the argument true, the value of the parameter `isChocolate` will become true, and we have chocolate cake!
+Now if we invoke the function with the argument true, the value of the parameter `isChocolate` will become true, and we have chocolate cake!
 
 ## Exercise 2
 

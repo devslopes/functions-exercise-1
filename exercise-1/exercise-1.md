@@ -141,9 +141,17 @@ You can scroll up and see what requirements you are failing to meet. Mine looks 
      × should do everything in the correct order
 ```
 
+This window will tell you exactly which tests are failing. This is very useful because it lets us know exactly what we need to do to meet the specifications for code.
+
+_note_ If you cannot see this you may need to update `terminal.integrated.scrollback` to something larger. On my terminal it is set to 20,000. In order to do that add this to your user settings configuration.
+
+```json
+"terminal.integrated.scrollback": 20000,
+```
+
 if you notice, the very first thing we are failing here tells us that `getCake` should be defined and also that `getCake` should be a function
 
-Let's fix this by going into `exercise-1.js` and where it tells us to writing a function called `getCake` like so
+Let's fix this by going into `exercise-1.js` and where it tells us to, lets write a function called `getCake` just like this example below
 
 ```js
 function getCake() {}
@@ -177,3 +185,5 @@ return cake;
 ```
 
 _tip: a `block` of a functionrefers to the lines of code inbetween an opening curly brace `{` and a closing curly brace `}`_
+
+GREAT! If your tests are all green then you are done with exercise-1. You should move on to exercise 2. Go ahead and open up exercise-2.md
