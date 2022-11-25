@@ -111,7 +111,7 @@ function myFunction(/* parameters go here*/) {
 
 ### Exercise 1:
 
-Let's make a function called getCake that does EXACTLY what we show above. We've provided an oven class for you so all you should need to do is write the function
+Let's make a function called getCake that does EXACTLY what we show above. We've provided an oven object for you so all you should need to do is write the function
 
 To run this test run
 

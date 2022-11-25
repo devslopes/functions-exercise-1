@@ -40,11 +40,3 @@ const oven = {
 // \____/ \___/|_|\__,_|\__|_|\___/|_| |_| \____/ \___|_|\___/ \_/\_/
 
 // please write your solution below this line, and DO NOT EDIT ANYTHING UP ABOVE
-function getCake() {
-  oven.set(400);
-  const cakeTin = ["flour", "water", "egg", "sugar"];
-  oven.place(cakeTin);
-  oven.wait(20);
-  const cake = oven.remove(cakeTin);
-  return cake;
-}
