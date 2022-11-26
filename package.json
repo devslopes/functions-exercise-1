@@ -6,7 +6,9 @@
   "scripts": {
     "test-1": "vitest exercise-1.spec.js",
     "test-2": "vitest exercise-2.spec.js",
-    "test-3": "vitest exercise-3.spec.js"
+    "test-3": "vitest exercise-3.spec.js",
+    "test-4": "vitest exercise-4.spec.js",
+    "test-all": "vitest"
   },
   "keywords": [],
   "author": "",
