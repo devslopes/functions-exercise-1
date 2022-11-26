@@ -1,9 +1,14 @@
 import { describe, it, expect, beforeEach } from "vitest";
 import { readFileSync } from "fs";
 
-const fileText = readFileSync("exercise-1/exercise-1.js", {
+const fileText = `
+${readFileSync("exercise-1/oven.js", {
   encoding: "utf-8",
-});
+})};
+${readFileSync("exercise-1/exercise-1.js", {
+  encoding: "utf-8",
+})};
+`;
 
 it("getCake should be defined", () => {
   const getCake = eval(`${fileText}; getCake`);
